@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# تأكيد قبل المتابعة
-read -p "هاذ السكربت غادي يحذف جميع الحزم، واش متأكد؟ (yes/no): " confirm
-if [[ "$confirm" != "yes" ]]; then
-    echo "العملية توقفت."
-    exit 1
-fi
-
 # تحديث النظام
 sudo apt update
 
